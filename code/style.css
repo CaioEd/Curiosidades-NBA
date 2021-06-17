@@ -1,3 +1,11 @@
+/* CORES 
+#064789
+#027BA1
+#029692
+#0227A1
+#060296
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
 
 *{
@@ -8,10 +16,19 @@
 body{
     font-family: 'Open Sans', sans-serif;
     padding-top: 125px;
+    background-color: #027BA1;
 }
 
 img{
-    width: 180px;
+    width: 130px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    font-size: 20px;
 }
 
 /* HEADER */
@@ -24,6 +41,7 @@ header{
     height: 105px;
     top: 0;
     background-color: #064789;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.411);
 }
 
 #title{
@@ -36,4 +54,25 @@ header{
     width: 70px;
     display: flex;
     margin: auto;
+}
+
+/* MAIN */
+#conferencias{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    width: 600px;
+    border-radius: 12px;
+}
+
+
+#leste{
+    margin-right: 3em;
+}
+
+#oeste{
+    margin-left: 3em;
 }
