@@ -1,2 +1,2 @@
-# Dunk News
- Site de notícias da NBA
+# Curiosidades da NBA
+Curisosidades e notícias da NBA.
