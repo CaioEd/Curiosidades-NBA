@@ -1,2 +1,2 @@
 # Curiosidades da NBA
-Curisosidades e notícias da NBA.
+Curisosidades sobre a história e como funciona a **NBA**.
