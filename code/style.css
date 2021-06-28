@@ -11,6 +11,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -41,7 +42,7 @@ p{
 header{
     height: 95px;
     margin-bottom: 2rem;
-    background-color: #064789;
+    background-image: linear-gradient(to bottom, #027BA1, #0227A1);
     border-bottom: 1px solid rgba(0, 0, 0, 0.411);
 }
 
