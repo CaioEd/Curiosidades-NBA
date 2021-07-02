@@ -40,11 +40,11 @@ button{
     font-weight: 600;
     margin-top: 0.9rem;
     margin-left: .5rem;
-    font-family: 'Poppins', sans-serif;
+    font-family:  'Poppins', sans-serif;
     font-size: 20px;
     border-radius: 8px;
     cursor: pointer;
-    border: 1px solid rgba(0, 0, 0, 0.63);
+    border: 1px solid rgba(0, 0, 0, 0.233);
     background-color: #029692;
 }
 
@@ -68,4 +68,18 @@ button:hover{
     font-size: 19px;
     font-family: monospace;
     font-weight: bold;
+}
+
+.alternativa{
+    width: 200px;
+    height: 40px;
+    font-weight: 600;
+    margin-top: 0.9rem;
+    margin-left: .5rem;
+    font-family:  'Poppins', sans-serif;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.63);
+    background-color: #029692;
 }

@@ -1,9 +1,19 @@
 function responder() {
     const res = document.querySelector('.res')
+    
+    const buttonClick = document.querySelector('.alternativa.correta')
 
-    const inputs = document.querySelectorAll('input')
+    const buttons = {
+        altrnativa1: '16',
+        alternativa2: '20',
+        alternativa3: '17',
+        alternativa4: '10'
+    }
 
-    if(inputs.value = 'false'){
-        res.innerHTML = (`<h1><strong> Você errou</strong></h1>`)
+    if (buttonClick.value = buttons.alternativa3){
+        res.innerHTML = (`acertou`)
+    } else{
+        res.innerHTML = (`errou`)
     }
 }
+
