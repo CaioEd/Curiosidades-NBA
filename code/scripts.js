@@ -1,19 +1,19 @@
-function responder() {
-    const res = document.querySelector('.res')
-    
-    const buttonClick = document.querySelector('.alternativa.correta')
+function question1() {
+    const res = document.querySelector('#res')
 
-    const buttons = {
-        altrnativa1: '16',
-        alternativa2: '20',
-        alternativa3: '17',
-        alternativa4: '10'
-    }
+    const buttons = document.querySelectorAll('.alternativa')
 
-    if (buttonClick.value = buttons.alternativa3){
-        res.innerHTML = (`acertou`)
+    const alternativas = [
+        '16',
+        '20',
+        '17',
+        '10'
+    ]
+
+
+    if(buttons.value == alternativas[2]){
+        res.innerHTML = (`Você acertou`)
     } else{
-        res.innerHTML = (`errou`)
+        res.innerHTML = (`Você errou`)
     }
 }
-
