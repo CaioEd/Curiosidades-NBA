@@ -27,6 +27,7 @@ a{
 
 img{
     width: 120px;
+    height: auto;
     display: flex;
     margin: auto;
     align-items: center;

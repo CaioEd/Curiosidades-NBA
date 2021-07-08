@@ -1,43 +1,29 @@
-function question1(){
+function responder(){
     const res = document.querySelector('#res')
-    const q1 = prompt('Digite sua resposta:')
+    const select = document.querySelector('#alternativas')
 
-    if(q1 == '17' || q1 == 'dezessete' || q1 == 'Dezessete' || q1 == 'DEZESSETE'){
-        res.innerHTML = (`<h1>Você acertou</h1>  <p>Vá para próxima pergunta</p>`)
+    const respostasCorretas = [
+        '17',
+        'Abdul-Jabbar',
+        'Bill Russell'
+    ]
+
+    if(select.value == respostasCorretas[0] || select.value == respostasCorretas[1] || select.value == respostasCorretas[2]){
+        res.innerHTML = (`<h1>Você acertou</h1> <strong><p>Parabéns</p></strong>  <p>Vá para próxima pergunta</p>`)
     } else{
-        res.innerHTML = (`<p><strong>Você errou</strong> <br> Tente novamente ou vá para próxima pergunta</p>`)
+        res.innerHTML = (`<h1>Você errou</h1> <br> <p>Tente novamente ou vá para próxima pergunta</p>`)
     }
 }
 
-function question2(){
+function finalizar(){
     const res = document.querySelector('#res')
-    const q2 = prompt('Digite sua resposta:')
+    const select = document.querySelector('#alternativas')
 
-    if(q2 == '17' || q2 == 'dezessete' || q2 == 'Dezessete' || q2 == 'DEZESSETE'){
-        res.innerHTML = (`<h1>Você acertou</h1>  <p>Vá para próxima pergunta</p>`)
+    const correta = 'Warriors 15/16'
+
+    if(select.value == correta){
+        res.innerHTML = (`<h1>Você acertou</h1> <strong><p>Parabéns</p></strong>  <p>Se você não foi bem no quiz, tente novamente clicando no botão abaixo.</p>`)
     } else{
-        res.innerHTML = (`<p><strong>Você errou</strong> <br> Tente novamente ou vá para próxima pergunta</p>`)
-    }
-}
-
-function question3(){
-    const res = document.querySelector('#res')
-    const q1 = prompt('Digite sua resposta:')
-
-    if(q1 == '17' || q1 == 'dezessete' || q1 == 'Dezessete' || q1 == 'DEZESSETE'){
-        res.innerHTML = (`<h1>Você acertou</h1>  <p>Vá para próxima pergunta</p>`)
-    } else{
-        res.innerHTML = (`<p><strong>Você errou</strong> <br> Tente novamente ou vá para próxima pergunta</p>`)
-    }
-}
-
-function question4(){
-    const res = document.querySelector('#res')
-    const q1 = prompt('Digite sua resposta:')
-
-    if(q1 == '17' || q1 == 'dezessete' || q1 == 'Dezessete' || q1 == 'DEZESSETE'){
-        res.innerHTML = (`<h1>Você acertou</h1>  <p>Vá para próxima pergunta</p>`)
-    } else{
-        res.innerHTML = (`<p><strong>Você errou</strong> <br> Tente novamente ou vá para próxima pergunta</p>`)
+        res.innerHTML = (`<h1>Você errou</h1> <br> <p>Tente novamente</p>`)
     }
 }

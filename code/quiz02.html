@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>quiz - 02</title>/title>
+    <title>quiz - 02</title>
     <link rel="stylesheet" href="quiz.css">
     <script src="scripts.js"></script>
 </head>
@@ -18,7 +18,14 @@
             <div id="res">
                 <h1>Pergunta 2</h1>
                 <p>Qual é o maior pontuador da NBA?</p>
-                <button onclick="question()">Responder</button>
+                <select name="alternativas" id="alternativas">
+                    <option value="Michael Jordan">Michael Jordan</option>
+                    <option value="Abdul-Jabbar">Abdul-Jabbar</option>
+                    <option value="Larry Bird">Larry Bird</option>
+                    <option value="LeBron James">LeBron James</option>
+                </select>
+                <br>
+                <button onclick="responder()">Responder</button>
             </div>
         </div>
 
