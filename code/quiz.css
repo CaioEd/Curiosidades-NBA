@@ -56,10 +56,11 @@ button:hover{
 .content{
     margin: auto;
     margin-top: 1rem;
+    padding: 20px;
     text-align: center;
     background-color: white;
     width: min(80%, 700px);
-    height: 270px;
+    height: auto;
     border-radius: 12px;
     box-shadow:3px 3px 5px rgb(13, 13, 14); 
 }
