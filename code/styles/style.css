@@ -1,0 +1,47 @@
+/* HEADER */
+    
+header{
+    width: 100%;
+    height: 95px;
+    margin-bottom: 2rem;
+    background-image: linear-gradient(to bottom, var(--azul-claro-), var(--azul-escuro-));
+    border-bottom: 1px solid rgba(0, 0, 0, 0.521);
+}
+
+header h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+/* MAIN */
+.content{
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    width: 80%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow:3px 3px 5px rgb(13, 13, 14); 
+}
+
+.curiosidades p{
+    margin: auto;
+}
+
+.curiosidades h2{
+    margin: 0 0 1rem 0.5rem;
+}
+
+.draft{
+    margin-top: 1rem;
+}
+
+.quiz{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: auto;
+}
